@@ -120,3 +120,43 @@ a {
     background-color: var(--secondary-color-light);
     padding-right: 1rem;
 }
+
+.card {
+    max-width: 740px;
+    background-color: var(--secondary-color);
+    padding: 0;
+}
+
+.card_content {
+    padding: 0.5em 1em 1em;
+}
+
+.card_content p,
+.card_title {
+    margin: 0;
+}
+
+.card_title {
+    font-size: 1.75em;
+    margin-bottom: .25em;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: var(--default-gap);
+    padding-top: 1.5rem;
+    justify-content: space-between;
+}
+
+
+.row .row {
+    padding-top: 0;
+}
+
+.row>* {
+    flex: 1 0 0%;
+}
