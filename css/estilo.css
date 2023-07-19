@@ -45,6 +45,13 @@ h2 {
 }
 
 
+.hightlight {
+    border-left: 1px solid var(--primary-color);
+    font-size: 1.1em;
+    padding: 0 0 0 2em;
+    margin-bottom: 2.2em;
+}
+
 article {
     padding: 1em 0;
 }
@@ -53,6 +60,9 @@ section {
     margin-bottom: 3rem;
 }
 
+.underline {
+    text-decoration: red wavy underline;
+}
 
 .main-header {
     flex: 0 0 26rem;
