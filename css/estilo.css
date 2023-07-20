@@ -226,3 +226,22 @@ select {
     width: calc(50% - var(--default-gap) / 2);
 
 }
+
+.btn-stroke {
+    background-color: transparent;
+}
+
+.btn-big {
+    font-size: 1.6rem;
+}
+
+.btn-full {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-full+.btn-full {
+    margin-left: 0;
+    margin-top: 2rem;
+}
