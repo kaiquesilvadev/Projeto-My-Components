@@ -182,3 +182,47 @@ a {
 .list-emoji {
     list-style-type: "\1F602";
 }
+input,
+label,
+textarea,
+select {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+input,
+textarea,
+select {
+    background-color: #ccc;
+    padding: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: 1.6rem;
+    border: 0;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color-dark);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .8em 1.2em;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--secondary-color-dark);
+}
+
+.form-quiz {
+
+    width: calc(50% - var(--default-gap) / 2);
+
+}
